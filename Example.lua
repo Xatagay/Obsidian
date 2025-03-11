@@ -22,9 +22,9 @@ local Window = Library:CreateWindow({
 	-- Position and Size are also valid options here
 	-- but you do not need to define them unless you are changing them :)
 
-	Title = "mspaint",
-	Footer = "version: example",
-	Icon = 95816097006870,
+	Title = "Amalgam for Typical Colors 2",
+	Footer = "version: 1",
+	Icon = 0,
 	NotifySide = "Right",
 	ShowCustomCursor = true,
 })
@@ -38,7 +38,7 @@ local Window = Library:CreateWindow({
 -- You can find more icons in https://lucide.dev/
 local Tabs = {
 	-- Creates a new tab titled Main
-	Main = Window:AddTab("Main", "user"),
+	Main = Window:AddTab("Aimbot", "bot"),
 	Key = Window:AddKeyTab("Key System"),
 	["UI Settings"] = Window:AddTab("UI Settings", "settings"),
 }
@@ -78,9 +78,9 @@ local Tab2 = TabBox:AddTab('Tab 2')
 -- Groupbox:AddToggle
 -- Arguments: Index, Options
 LeftGroupBox:AddToggle("MyToggle", {
-	Text = "This is a toggle",
-	Tooltip = "This is a tooltip", -- Information shown when you hover over the toggle
-	DisabledTooltip = "I am disabled!", -- Information shown when you hover over the toggle while it's disabled
+	Text = "Aimbot",
+	Tooltip = "aimbot duh", -- Information shown when you hover over the toggle
+	DisabledTooltip = "its disablesd", -- Information shown when you hover over the toggle while it's disabled
 
 	Default = true, -- Default value (true / false)
 	Disabled = false, -- Will disable the toggle (true / false)
